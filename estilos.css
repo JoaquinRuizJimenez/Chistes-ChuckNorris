@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+    flex-direction: column;
+    line-height: 1.6;
+    border-collapse: collapse;
+    min-height: 100vh;
+}
+main{
+    padding: 0 2rem 2rem 2rem;
+    flex: 1;
+}
+.contenedorCabecera{
+    background-color: #E94C2C;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+footer{
+    background-color: #E94C2C;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    bottom: 0;
+}
+.contenedorImagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.imagenChuckNorris{
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonMostrarChiste{
+    background-color: #007BFF;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botonMostrarChiste:hover{
+    background-color: #0056B3;
+}
+.botonMostrarChiste:disabled{
+    background-color: #CCC;
+    cursor: disabled;
+}
+.contenedorChiste{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #DDD;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
+    text-align: center;
+}
+.selectorCategorias{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+}
+.contenedorSelecciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
